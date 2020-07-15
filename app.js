@@ -59,3 +59,30 @@ for (let i = 0; i < cars.length; i++)
     let eachCar = cars[i];
     console.log(eachCar);
 }
+
+const josh = 
+{
+    fullName: "Joshua Chiang",
+    age: 22,
+    myLocation: "Los Angeles",
+    placesTraveled: ["Taiwan", "Hungary", "Spain", "Oregon", "Arizona", "Nevada", "New York"]
+};
+
+console.log(josh);
+
+console.log(josh.placesTraveled[4]);
+
+const myCoolPost = 
+{
+    username: "@imjoshchiang",
+    likes: 42,
+    comments: ["really cool", "yeah josh, yeah?", "cool beans bro!"],
+    caption:  "look at these beans bro",
+    picture: "https://instagram.com/imjoshchiang/...",
+    shares: 12
+}
+
+console.log(myCoolPost);
+
+myCoolPost.location = "San Jose";
+console.log(myCoolPost);
