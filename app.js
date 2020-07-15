@@ -60,6 +60,7 @@ for (let i = 0; i < cars.length; i++)
     console.log(eachCar);
 }
 
+// OBJECTS
 const josh = 
 {
     fullName: "Joshua Chiang",
@@ -109,3 +110,79 @@ julyFourthPost["likes"] = 45;
 julyFourthPost.comments = ["that's wack bro", "okaaaay"];
 julyFourthPost.shares = 10;
 julyFourthPost.caption = "QWODfhqwodfih";
+
+
+// FUNCTIONS
+console.log("Hello");
+
+//standard
+function sayHello()
+{
+    console.log("Hello");
+}
+
+sayHello();
+sayHello();
+sayHello();
+
+//function expression
+const sayHelloAgain = function()
+{
+    console.log("Hello Again");
+}
+
+sayHelloAgain();
+
+//arrow function
+const sayHelloFinal = () =>
+{
+    console.log("Hello for the last time");
+}
+
+sayHelloFinal();
+
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const otherNumbers = [11, 22, 33, 44, 50, 55, 66, 77, 88, 99];
+
+function printNumbers(nums)
+{
+    console.log(nums);
+}
+
+printNumbers(numbers);
+printNumbers(otherNumbers);
+
+function printNumsSeparate(array)
+{
+    for (let i = 0; i < array.length; i++)
+    {
+        let num = array[i];
+        console.log(num);
+    }
+}
+
+printNumsSeparate(numbers);
+printNumsSeparate(otherNumbers);
+
+function lessThanFifty(array)
+{
+    for (let i = 0; i < array.length; i++)
+    {
+        let num = array[i];
+        if (num < 50)
+        {
+            console.log("This number is less than fifty: " + num);
+        }
+        else if (num == 50)
+        {
+            console.log("This number is fifty: " + num);
+        }
+        else 
+        {
+            console.log("This number is greater than fifty: " + num);
+        }
+    }
+}
+
+lessThanFifty(otherNumbers);
