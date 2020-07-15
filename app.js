@@ -45,3 +45,9 @@ for (var i = 0; i < teams.length; i++)
 {
     console.log(teams[i]);
 }
+
+var potatoes = ["idaho", "sweet", "baked", "mashed", "boiled"];
+for (var i = 0; i < potatoes.length; i++)
+{
+    console.log(potatoes[i]);
+}
