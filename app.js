@@ -51,3 +51,11 @@ for (var i = 0; i < potatoes.length; i++)
 {
     console.log(potatoes[i]);
 }
+
+const cars = ["Tesla", "Honda", "Toyota", "Ford"];
+console.log(cars);
+for (let i = 0; i < cars.length; i++)
+{
+    let eachCar = cars[i];
+    console.log(eachCar);
+}
