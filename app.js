@@ -26,3 +26,12 @@ while(myOtherNumber < numberTwo)
     console.log*(myOtherNumber);
     myOtherNumber += 1;
 }
+
+var joshFav = 5;
+var toHundred = 100;
+
+while (joshFav < toHundred)
+{
+    console.log(joshFav);
+    joshFav++;
+}
