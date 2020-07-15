@@ -23,7 +23,7 @@ var myOtherNumber = 10;
 
 while(myOtherNumber < numberTwo)
 {
-    console.log*(myOtherNumber);
+    console.log(myOtherNumber);
     myOtherNumber += 1;
 }
 
@@ -35,3 +35,4 @@ while (joshFav < toHundred)
     console.log(joshFav);
     joshFav++;
 }
+
