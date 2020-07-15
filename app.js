@@ -89,7 +89,7 @@ console.log(myCoolPost);
 
 const anOkayPost =
 {
-    username: "potato-man",
+    username: "@potato-man",
     likes: 24,
     comments: ["that's not a potato", "what kind of potato is that?", "i want that potato"],
     caption: "look at this potato",
@@ -98,3 +98,14 @@ const anOkayPost =
 }
 
 console.log(anOkayPost);
+
+const julyFourthPost =
+{
+    username: "@joe"
+}
+
+julyFourthPost.picture = "https://instagram.com/joe/...";
+julyFourthPost["likes"] = 45;
+julyFourthPost.comments = ["that's wack bro", "okaaaay"];
+julyFourthPost.shares = 10;
+julyFourthPost.caption = "QWODfhqwodfih";
