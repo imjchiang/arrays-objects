@@ -86,3 +86,15 @@ console.log(myCoolPost);
 
 myCoolPost.location = "San Jose";
 console.log(myCoolPost);
+
+const anOkayPost =
+{
+    username: "potato-man",
+    likes: 24,
+    comments: ["that's not a potato", "what kind of potato is that?", "i want that potato"],
+    caption: "look at this potato",
+    picture: "https://instagram.com/potato-man/...",
+    shares: 2
+}
+
+console.log(anOkayPost);
